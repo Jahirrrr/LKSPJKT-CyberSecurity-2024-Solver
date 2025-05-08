@@ -1,0 +1,13 @@
+(gdb) break __isoc99_scanf@plt
+
+(gdb) run
+Starting program: ./chall
+Welcome to Casino Game! Guess my number whether it's 0 or 1 but I can bet that YOU'LL ALWAYS LOSE.
+
+(gdb) p win_game
+
+(gdb) set $pc = win_game
+
+(gdb) continue
+Continuing.
+LKSPJKT{r34L_c4$1n0_g4mbler}You lose :) .. No flag for you!

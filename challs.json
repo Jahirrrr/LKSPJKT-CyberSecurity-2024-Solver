@@ -1,0 +1,173 @@
+{
+    "data": {
+        "Binary Exploitation": [
+            {
+                "category": "Binary Exploitation",
+                "description": "Exploit this program?!\r\n\r\n`nc 178.128.120.140 11101`\r\n\r\nAuthor: `Stanley`",
+                "files": [
+                    "/files/184d7b07e749e24f3050a1ee99303d9e/chall?token=eyJ1c2VyX2lkIjoxLCJ0ZWFtX2lkIjpudWxsLCJmaWxlX2lkIjo4fQ.ZmGjJg.YwjXHkB2pVeUHriQV8nZNL6Mi3w",
+                    "/files/8f4de61595c0a77eb886c069c5cb1885/chall.c?token=eyJ1c2VyX2lkIjoxLCJ0ZWFtX2lkIjpudWxsLCJmaWxlX2lkIjoxMX0.ZmGjJg.zz2JVtNBiwuZV92pR83Gwo24_jM"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 7,
+                "name": "\ud83e\udd14 What",
+                "points": 500,
+                "solves": 1
+            },
+            {
+                "category": "Binary Exploitation",
+                "description": "Exploit this program !\r\n\r\n`nc 178.128.120.140 11102`\r\n\r\nAuthor: `Stanley`",
+                "files": [
+                    "/files/b8b534922f5da14d7be44f7c5da3693c/chall?token=eyJ1c2VyX2lkIjoxLCJ0ZWFtX2lkIjpudWxsLCJmaWxlX2lkIjo5fQ.ZmGjJw.0uMe0ki4-SV-cvOiKoCbFrWE0Jc",
+                    "/files/aee2b1f1dd864f018d99642f60609b18/chall.c?token=eyJ1c2VyX2lkIjoxLCJ0ZWFtX2lkIjpudWxsLCJmaWxlX2lkIjoxMn0.ZmGjJw.4oH5mFOqYRlvEmCtLOeoJ_cSN90"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 8,
+                "name": "\ud83d\ude44 Where",
+                "points": 500,
+                "solves": 0
+            }
+        ],
+        "Cryptography": [
+            {
+                "category": "Cryptography",
+                "description": "Have you ever heard of `Logic Gates`?\r\n\r\nFlag format is in `LKSPJKT{.*}` \r\n\r\nAuthor: `Felix`",
+                "files": [
+                    "/files/1029cdba6d985320a6c33224720dd594/logicgates.py?token=eyJ1c2VyX2lkIjoxLCJ0ZWFtX2lkIjpudWxsLCJmaWxlX2lkIjoyfQ.ZmGjJw.As8tvPuW9vCfQ9GSIbJl8zkMOr0"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 1,
+                "name": "\ud83c\udfe0 House of Gates",
+                "points": 100,
+                "solves": 12
+            },
+            {
+                "category": "Cryptography",
+                "description": "I made a random quiz because I know you're such a random guy. But I bet no such things that can brute force a 30 - 50 bytes in a loop for a day in this competition! \ud83e\udd23\r\n\r\nFlag is in format: `LKSPJKT{.*}`\r\n\r\nAuthor: `Felix`",
+                "files": [
+                    "/files/469ab81eeac9401b572bd947cf3e8bfb/chall.py?token=eyJ1c2VyX2lkIjoxLCJ0ZWFtX2lkIjpudWxsLCJmaWxlX2lkIjozfQ.ZmGjJw.Yn22AJPD1JQQgMNs5gHSLe7wnpg"
+                ],
+                "hints": [
+                    "How would you find a seed when you know the random value retrieved? This will blow your mind but the final state of randomness can be `reverse-engineered` :) ..... \n\nYeah this is Cryptography + Reverse Engineering challenge which may require a lot of scripting.",
+                    "Python RNG is based from `https://github.com/python/cpython/blob/main/Modules/_randommodule.c ` (yeah analyze that :u),  and as you can see that the state can be tampered (?) \ud83d\ude0f\n\nHow would one could satisfy the state if there are enough *n* integers? \ud83e\udee1\n"
+                ],
+                "id": 2,
+                "name": "\ud83d\udca3 Impossible Challenge",
+                "points": 500,
+                "solves": 0
+            }
+        ],
+        "Digital Forensic": [
+            {
+                "category": "Digital Forensic",
+                "description": "I was playing with my favorite sniffer tool and I noticed that one of the employee had accessed malware in their local system. It looked like he also is **BANNED** from a server which follows this RFC rule(https://datatracker.ietf.org/doc/html/rfc1459) , can you find the employee's username?\r\n\r\nIf you've found him, wrap the username as your flag!\r\n\r\nFor example: \r\n\r\nusername = ampunbangjago\r\n\r\nthen, Your flag is `LKSPJKT{ampunbangjago}`\r\n\r\nAuthor: `Felix`",
+                "files": [
+                    "/files/c70bd7e0f7d8763742c3b23ee0825380/pcapchall.pcapng?token=eyJ1c2VyX2lkIjoxLCJ0ZWFtX2lkIjpudWxsLCJmaWxlX2lkIjo1fQ.ZmGjJw.aaBgTYspSnrrq-E3J76vxeSrrpY"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 4,
+                "name": "\ud83d\ude08 Realm of RFC",
+                "points": 100,
+                "solves": 11
+            },
+            {
+                "category": "Digital Forensic",
+                "description": "This PNG image is corrupted and some says a `magic byte` has been tampered! What does that mean? Can you check in your **hexdump** tools?\r\n\r\nFlag is in recovered image `LKSPJKT{.*}`\r\n\r\nAuthor: `Felix`",
+                "files": [
+                    "/files/6e07e2ea07e1a246a77f5a45d2937e37/broken_image.png?token=eyJ1c2VyX2lkIjoxLCJ0ZWFtX2lkIjpudWxsLCJmaWxlX2lkIjo0fQ.ZmGjJw._SuZ_gT9-1fcUzYTcJAXVk6nCw0"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 3,
+                "name": "\ud83d\ude22 PNG Disaster",
+                "points": 100,
+                "solves": 12
+            }
+        ],
+        "Reverse Engineering": [
+            {
+                "category": "Reverse Engineering",
+                "description": "`AssertionError`? Means you haven't got a correct flag yet !\r\n\r\nFlag is in format: `LKSPJKT{.*}`\r\n\r\nAuthor: `Felix`",
+                "files": [
+                    "/files/11595147e29e2f67181f7541138f4138/chall.py?token=eyJ1c2VyX2lkIjoxLCJ0ZWFtX2lkIjpudWxsLCJmaWxlX2lkIjo2fQ.ZmGjJw.AL-RUGK0pgbC0dFMFzHmV2rOhXs"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 5,
+                "name": "\ud83d\udc0d Subway Snake",
+                "points": 100,
+                "solves": 10
+            },
+            {
+                "category": "Reverse Engineering",
+                "description": "Welcome to Casino Royale!\r\n\r\nNo matter what's your guess, I hope you don't bet much because this binary is cheating on you!\r\n\r\nFind a way to redirect the program to `win_game` function! That function will immediately print you a flag!\r\n\r\nFlag is in format: `LKSPJKT{.*}`\r\n\r\nNotes: If you find strings `LKSPJKT{this.... blbalbalbla` , that's NOT the flag \ud83d\ude4f, flag can only be retrieved if you successfully redirect the program to win the game by calling `win_game` function.\r\n\r\nAuthor: `Felix`",
+                "files": [
+                    "/files/5fd8abf7c88cbf7cfaa69ebcc636a33c/chall?token=eyJ1c2VyX2lkIjoxLCJ0ZWFtX2lkIjpudWxsLCJmaWxlX2lkIjo3fQ.ZmGjJw.vNKkeaAVDEDFm2yKHRQn8pCsGaw"
+                ],
+                "hints": [
+                    "Solving this challenge using your decompiler is painful, it's **easier** to use a dynamic analysis approach instead \ud83d\ude0f ~ but there's a `catch` ..."
+                ],
+                "id": 6,
+                "name": "\ud83c\udfb0 Yggdrasil Casino",
+                "points": 500,
+                "solves": 1
+            }
+        ],
+        "Web Exploitation": [
+            {
+                "category": "Web Exploitation",
+                "description": "It's still sweet.\r\n\r\nAuthor: siahaan",
+                "files": [
+                    "/files/06fb1200275af8820fff7f57ea04fb54/src_publish.zip?token=eyJ1c2VyX2lkIjoxLCJ0ZWFtX2lkIjpudWxsLCJmaWxlX2lkIjoxMH0.ZmGjJw.Sa6to2NLRquoexQOt25I5n4zw_4"
+                ],
+                "hints": [
+                    "'Something' is being generated if  'something' does not exist. How bad can it be? Focus on that and read them source code.",
+                    "Get RCE. Flag is in /flag.txt"
+                ],
+                "id": 10,
+                "name": "\ud83d\udc1d Tawon",
+                "points": 500,
+                "solves": 0
+            },
+            {
+                "category": "Web Exploitation",
+                "description": "They are spying on us, they are truly...\r\n\r\nAuthor: siahaan",
+                "files": [],
+                "hints": [
+                    "How does one server set a cookie for its clients?",
+                    "Can you make the server to change your cookie according to your arbitrary wish?"
+                ],
+                "id": 9,
+                "name": "\ud83c\udf0d Optmeout",
+                "points": 500,
+                "solves": 0
+            }
+        ],
+        "Welcoming Party": [
+            {
+                "category": "Welcoming Party",
+                "description": "Hi and welcome to LKSP Jakarta!\r\n\r\nYou can just paste the following flag for testing :)\r\n\r\n`LKSPJKT{welcome_to_the_round_before_nightmare_begin}`",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 11,
+                "name": "\ud83e\udee1 Hello World ",
+                "points": 100,
+                "solves": 14
+            }
+        ]
+    },
+    "title": "CTFd",
+    "url": "https://idcyberskills.com"
+}
